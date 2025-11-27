@@ -20,7 +20,7 @@ head_sampling_rate = 1
 
 [[kv_namespaces]]
 binding = "CF-SIREN"
-id = "bc99493fbd1f40fcbe0016ff8ed13ff4"
+id = "f1d249bd9b2958e60baa34a885f13d90"
 
 [build]
 command = "cargo install worker-build && worker-build --release"

@@ -3,6 +3,21 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
 
+[observability]
+enabled = false
+head_sampling_rate = 1
+
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+persist = true
+invocation_logs = true
+
+[observability.traces]
+enabled = false
+persist = true
+head_sampling_rate = 1
+
 [[kv_namespaces]]
 binding = "CF-SIREN"
 id = "bc99493fbd1f40fcbe0016ff8ed13ff4"
